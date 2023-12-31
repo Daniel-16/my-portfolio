@@ -52,12 +52,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     className="h-5"
                     src={`/images/${
                       !open
-                        ? theme === "dark"
-                          ? "menu-white.svg"
-                          : "menu.svg"
-                        : theme === "light"
-                        ? "cancel.svg"
-                        : "cancel-white.svg"
+                        ? theme === "light"
+                          ? "menu.svg"
+                          : "menu-white.svg"
+                        : theme === "dark"
+                        ? "cancel-white.svg"
+                        : "cancel.svg"
                     }`}
                   />
                 </Popover.Button>
@@ -76,11 +76,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   {showResume && (
-                    <Button
-                      onClick={() =>
-                        window.open("mailto:danieloloruntoba681@gmail.com")
-                      }
-                    >
+                    <Button onClick={() => window.open("/resume")}>
                       Resume
                     </Button>
                   )}

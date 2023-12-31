@@ -135,12 +135,12 @@ export default function Home() {
             I am a web sorcerer on a mission to blend creativity with
             technology. With years of full-stack magic—HTML, CSS, JS, React,
             NextJS, NodeJS, ExpressJS, MongoDB, Flutter, React Native and many
-            more tech—I'm crafting seamless experiences across platforms.
+            more tech—I&apos;m crafting seamless experiences across platforms.
             <br />
-            Tech Explorer & Futurist Beyond coding, I'm an avid tech explorer
-            diving into Aritificical Intelligence, Machine Learning, and
-            Augmented Reality. While not an expert yet, my curiosity fuels my
-            journey toward mastering these realms.
+            Tech Explorer & Futurist Beyond coding, I&apos;m an avid tech
+            explorer diving into Aritificical Intelligence, Machine Learning,
+            and Augmented Reality. While not an expert yet, my curiosity fuels
+            my journey toward mastering these realms.
           </p>
         </div>
         <Footer />

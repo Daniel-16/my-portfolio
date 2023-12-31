@@ -1,6 +1,6 @@
 {
-  "name": "react-portfolio-template",
-  "version": "3.0",
+  "name": "my-portfolio",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",

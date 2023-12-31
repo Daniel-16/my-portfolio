@@ -7,9 +7,9 @@ import Socials from "../components/Socials";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
 // Data
-import name from "../data/portfolio.json";
-import showResume from "../data/portfolio.json";
-import resume from "../data/portfolio.json";
+import { name } from "../data/portfolio.json";
+import { showResume } from "../data/portfolio.json";
+import { resume } from "../data/portfolio.json";
 import data from "../data/portfolio.json";
 
 const Resume = () => {

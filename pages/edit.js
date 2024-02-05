@@ -75,8 +75,7 @@ const Edit = () => {
         {
           id: uuidv4(),
           title: "New Service",
-          description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+          description: "Dummy text data",
         },
       ],
     });
